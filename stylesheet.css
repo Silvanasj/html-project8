@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Quicksand" Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f08e8e;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  gap: 50px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+a:hover {
+  color: #ff8587;
+  font-weight: 600;
+}
+
+.header__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header__user {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__icon {
+  cursor: pointer;
+  width: 27px;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e89a9a;
+}
+
+.carousel {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.catalog__text {
+  font-size: 17px;
+  font-weight: 400;
+}
+.catalog__image {
+  width: 250px;
+}
+
+.contact {
+  background-image: url(./img/Captura\ de\ pantalla\ 2024-11-19\ 124238.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #ff8587;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__contact {
+  background-color: #ff8587;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
